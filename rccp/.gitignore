@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Runtime data (SQLite lives on the mounted volume)
+data/
+*.db
+*.db-wal
+*.db-shm
+.env
+.pytest_cache/

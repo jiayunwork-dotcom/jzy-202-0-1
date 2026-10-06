@@ -1,0 +1,24 @@
+[project]
+name = "rccp"
+version = "1.0.0"
+description = "Rough-cut capacity planning service"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "numpy>=2.1",
+    "pydantic>=2.9",
+    "uvicorn>=0.30",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.27",
+    "pytest>=8.3",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.uv]
+package = false
