@@ -1,0 +1,9 @@
+[project]
+name = "rccp"
+version = "1.0.0"
+description = "粗能力计划（RCCP）后端服务：资源清单/能力日历版本管理、主生产计划负荷展开与对比"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
